@@ -1,0 +1,33 @@
+.aplicaciones header {
+    color: #fff;
+    background-color: var(--verde-con-hover);
+    font-size: 22px;
+    
+}
+.aplicaciones .grid {
+    display: grid;
+    /* gap: 50px; */
+    grid-template-columns: 
+    150px 
+    150px 
+    170px 
+    210px 
+    220px; 
+}
+.aplicaciones .grid > * {
+    padding: 5px 0;
+    border-right: 1px solid #fff;
+    cursor: pointer;
+}
+
+.aplicaciones .blanco {
+    background-color: #fff;
+
+}
+.aplicaciones .blanco > * {
+    border-right: 1px solid #000;
+}
+
+.aplicaciones .sin_borde {
+    border: 0;
+}
