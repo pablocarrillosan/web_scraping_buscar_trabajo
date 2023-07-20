@@ -11,9 +11,6 @@
     outline: none;
 
 }
-.formulario > * {
-    /* width: 100%; */
-}
 
 .formulario button {
     all: unset;
